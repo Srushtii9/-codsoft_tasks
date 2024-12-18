@@ -1,0 +1,52 @@
+#intro{
+    background-color: #FCF5E7;
+    height: 100vh;
+}
+#myself{
+    background-color: #9B4819;
+    height: 100vh;
+    color: #FCF5E7;
+} 
+#interests{
+    background-color: #FCF5E7 ;
+    height: auto;
+}
+#contact{
+    background-color: #FCF5E7 ;
+    height: auto;
+}
+.container-1{
+    background-color: #FCF5E7;
+    height: 100vh;
+    padding-top:30vh;
+    padding-left: 50vh;
+}
+.container-1 h1{
+    color: #9B4819;
+    
+}
+.skill-heading{
+    text-align: center;
+}
+.para{
+    border: 2px solid #9B4819;
+    height: 200px;
+    width: 400px;
+    padding-left: 20px;
+}
+.container-2{
+    display: inline-flex;
+    gap: 20px;
+    margin: 50px;
+    margin-right: 0px;
+    justify-content: center;
+    height: 40vh;
+}
+.image{
+    height: 200px;
+}
+.footer{
+    height: 100px;
+    background-color: #9B4819;
+    margin-top: 10px;
+}

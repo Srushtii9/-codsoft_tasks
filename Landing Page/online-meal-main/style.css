@@ -1,0 +1,276 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: white;
+}
+
+.btn:hover{
+    background-color:darkgreen ;
+}
+#logo img{
+    height: 40px;
+    width: 40px;
+}
+#logo{
+    /* border: 3px solid black; */
+    margin:10px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar{
+    display: flex;
+    /* background-color: bisque; */
+    /* border: 3px solid black; */
+    align-items: center;
+    position: sticky;
+    font-family: Poppins;
+    /* position: fixed; */
+    top: 0px;
+    left: 0px;
+
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li {
+    list-style: none;
+    display: flex;
+}
+#navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 3px 20px;
+    color: white;
+    border-radius: 7px;
+}
+#navbar ul li a:hover{
+    background-color:rgb(66, 116, 66) ;
+}
+#Home{
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    height: 515px;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+}
+#Home::before{
+    content: "";
+    position: absolute;
+    background: url("green2bg.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.80;
+    top: 0px;
+    left: 0px;
+}
+
+#Home h1{
+    text-align: center;
+    color: white;
+    font-family: Bree Serif;
+}
+#Home p{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    /* font-family: Roboto Condensed ; */
+    font-family: Bree Serif;
+    
+}
+/* services */
+#services-container h1{
+    margin-top: 15vh;
+    color: darkgreen;
+
+}
+#services{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 500px;
+}
+#services .box{
+    border: 2px solid darkgreen;
+    /* color: darkgreen; */
+    padding: 20px;
+    margin: 6px 20px;
+    border-radius: 23px;
+    /* background-color:rgb(38, 66, 38) ; */
+    background-color: rgb(71, 95, 71);
+}
+#services .box:hover{
+    background-color: rgb(54 78 54);
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+    border-radius: 28px;
+    margin-top: 10px;
+    
+
+}
+#services .box p{
+    font-family: Bree Serif;
+}
+#services-container::before{
+    content: "";
+    position: absolute;
+    /* background: url("greenbg3.webp") no-repeat center center/cover; */
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+/* clients section */
+#client-section{
+    position: relative;
+    color: darkgreen;
+}
+#client-section::before{
+    content:"" ;
+    position: absolute;
+    /* background: url("greenbg3.webp") no-repeat center center/cover; */
+    height: 45%;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 100px;
+    padding-bottom: 25px;
+}
+
+/* contact section */
+#contact{
+    position: relative;
+    color: darkgreen;
+    
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    background: url('greenbg3.webp') no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 14px ;
+    
+    
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 7px;
+    background-color: rgb(236, 250, 236);
+    border: 0px;
+}
+#contact-box input:hover,
+#contact-box textarea:hover{
+    background-color: white;
+}
+
+#contact-box form{
+    width: 40%;
+    
+    
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: Bree Serif;
+    
+}
+footer{
+    background: black;
+    color: white;
+    padding: 6px 20px;
+}
+/* utility */
+.h-primary{
+    font-size: 3.3rem;
+    padding: 30px;
+    font-family: Bree Serif;
+}
+.h-secondary{
+    font-size: 2rem;
+    padding: 5px 25px;
+    font-family: Bree Serif;
+}
+
+.btn{
+    padding: 4px 10px;
+    border-radius: 8px;
+    border: 0px;
+    margin: 15px;
+    font-size: 1rem;
+    font-family: Poppins;
+    cursor: pointer;
+    background-color: rgb(38 66 38) ;
+    color: white;
+    /* color: white; */
+}
+.btn:hover{
+    background-color: darkgreen;
+    color: white;
+}
+.center{
+    text-align: center;
+}
+#submit-button{
+    text-align: center;
+   
+    padding: 4px 10px;
+    border-radius: 8px;
+    border: 0px;
+    margin: 15px;
+    font-size: 1rem;
+    font-family: Poppins;
+    cursor: pointer;
+    background-color: rgb(38 66 38) ;
+    color: white;
+}
+.submitbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100px; */
+  /* border: 3px solid green; */
+}
+.client-item img:hover{
+    /* background-color: aqua; */
+    /* border-radius: 30px; */
+    opacity: 0.7;
+    z-index: -1;
+}
+
